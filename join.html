@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mbti test: join</title>
+</head>
+<body>
+  <h3>Join</h3>
+  <form action="join.php" method="post">
+<fieldset>
+      <label>name <input name="name" size="25" type="text" placeholder="내용을 입력해주세요" autofocus required></label><br><br>
+      <label>ID <input name="ID" size="25" type="text"placeholder="내용을 입력해주세요" autofocus required></label><br><br>
+      <label>e-mail <input name="e-mail" size="25" type="email"placeholder="내용을 입력해주세요" autofocus required></label><br><br>
+      <label>password <input name="password" size="25" type="password"placeholder="내용을 입력해주세요" autofocus required></label><br><br>
+      <label>profile</label><br>
+      <textarea cols="50" name="profile" rows="10" placeholder="자기소개" autofocus required></textarea><br><br>
+      소속 동아리
+      <select name="club">
+        <option value="web">웹</option>
+        <option value="game">게임</option>
+        <option value="hack">해킹</option>
+        </select><br><br>
+      소속 학과
+        <select name="major">
+          <option value="social science">인문사회계열</option>
+          <option value="natural science">자연과학계열</option>
+          <option value="engineering">공학기술계열</option>
+          <option value="education">사범교육계열</option>
+          <option value="entertainment">예술체육계열</option>
+          </select><br>
+</fieldset>
+<br><br>
+<input type="submit" value="계정 생성">
+</form>
+
+</body>
+</html>
